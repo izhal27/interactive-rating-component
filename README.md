@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [link](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI/hub)
+- Live Site URL: [link](https://interactive-rating-component-c1wp8qe0n-izhal.vercel.app/)
 
 ### Built with
 
