@@ -19,7 +19,7 @@ export default function Home() {
   }
 
   const VoteComponent = () => (
-    <section className="flex max-w-sm flex-col space-y-5 rounded-3xl bg-gradient-to-b from-dark-blue-gradient-from  to-dark-blue-gradient-to px-8 py-7 drop-shadow-xl">
+    <section className="flex max-w-xs md:max-w-sm flex-col space-y-5 rounded-3xl bg-gradient-to-b from-dark-blue-gradient-from  to-dark-blue-gradient-to px-8 py-7 drop-shadow-xl">
       <div className="flex h-10 w-10 items-center justify-center rounded-full bg-dark-blue">
         <StarSvg />
       </div>
@@ -52,7 +52,7 @@ export default function Home() {
   );
 
   const ResultComponent = () => (
-    <section className="flex max-w-sm flex-col items-center space-y-5 rounded-3xl bg-gradient-to-b from-dark-blue-gradient-from  to-dark-blue-gradient-to px-8 py-7 drop-shadow-xl">
+    <section className="flex max-w-xs md:max-w-sm flex-col items-center space-y-5 rounded-3xl bg-gradient-to-b from-dark-blue-gradient-from  to-dark-blue-gradient-to px-8 py-7 drop-shadow-xl">
       <ThankYouSvg />
       <h2 className="rounded-full bg-gray-700 px-5 py-1 text-sm font-light text-orange"> You selected {choosenNumber} out of 5</h2 >
       <h3 className="text-2xl text-white">Thank you!</h3>
