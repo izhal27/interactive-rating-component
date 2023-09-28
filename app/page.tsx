@@ -32,7 +32,7 @@ export default function Home() {
         {numbers.map((n) => (
           <p
             key={n}
-            className={`flex h-10 w-10 cursor-pointer items-center justify-center rounded-full text-sm hover:bg-orange hover:text-white font-semibold
+            className={`flex h-10 w-10 cursor-pointer items-center justify-center rounded-full text-sm hover:bg-orange hover:text-white font-semibold transition duration-300
             ${activeNumber === n
                 ? "bg-medium-grey text-white"
                 : "bg-dark-blue text-[#68717b]"
@@ -44,7 +44,7 @@ export default function Home() {
         ))}
       </div>
       <form onSubmit={(e) => onSubmit(e)} className="flex flex-col">
-        <button className="rounded-full bg-orange py-2 text-sm text-white hover:bg-white hover:text-orange">
+        <button className="rounded-full bg-orange py-2 text-sm text-white hover:bg-white hover:text-orange transition duration-300">
           SUBMIT
         </button>
       </form>
