@@ -58,7 +58,7 @@ export default function Home() {
       <h3 className="text-2xl text-white">Thank you!</h3>
       <p className="text-center text-sm text-gray-500">
         We appreciate you taking the time to give rating. If you ever need more
-        support, don't hesitate to get in touch!!
+        support, don&lsquo;t hesitate to get in touch!!
       </p>
     </section >
   );
